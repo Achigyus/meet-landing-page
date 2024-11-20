@@ -28,12 +28,12 @@ function App() {
               <img src={desktopHeroLeft}alt="#" className="hero_section_desktop_img" />
             </div>
 
-            <div className="hero_section_writeup">
-              <h1 className="hero_section_h1">Group Chat for Everyone</h1>
-              <p className="hero_section_p">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+            <div className="hero_section_writeup tac">
+              <h1 className="hero_section_h1 red_hat fw900">Group Chat <br /> for Everyone</h1>
+              <p className="hero_section_p red_hat fw500">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
               <div className="hero_section_btns">
-                <button className="hero_section_download_btn">Download v1.3</button>
-                <button className="hero_section_enquire_btn">What is it?</button>
+                <button className="hero_section_download_btn red_hat fw900">Download <span>v1.3</span></button>
+                <button className="hero_section_enquire_btn red_hat fw900">What is it?</button>
               </div>
             </div>
 
@@ -43,7 +43,7 @@ function App() {
           </div>
 
           <div className="desc_section">
-            <p className="desc_section_number">1</p>
+            <p className="desc_section_number red_hat fw900">01</p>
             <div className="desc_section_images">
               <div className="desc_section_img_cont">
                 <img src={img1} alt="#" className="desc_section_img" />
@@ -61,18 +61,24 @@ function App() {
                 <img src={img4} alt="#" className="desc_section_img" />
               </div>
             </div>
-            <h3 className="desc_section_h3">Built for modern use</h3>
-            <h2 className="desc_section_h2">Smarter meetings, all in one place</h2>
-            <p className="desc_section_p">Send messages, share files, show your screen, and record your meetings — all in one
-            workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
+            <div className="desc_section_writeup tac">
+              <h3 className="desc_section_h3 red_hat fw900">Built for modern use</h3>
+              <h2 className="desc_section_h2 red_hat fw900">Smarter meetings, all in one place</h2>
+              <p className="desc_section_p red_hat fw500">Send messages, share files, show your screen, and record your meetings — all in one
+              workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
+            </div>
           </div>
         </main>
 
         <footer className="footer">
-          <div className="footer_number">2</div>
-          <h2 className="footer_h2">Experience more together</h2>
-          <p className="footer_p">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
-          <button className="footer_download_btn">Download v1.3</button>
+          <div className="footer_number red_hat fw900">02</div>
+          <div className="footer_writeup_wrap overlay tac">
+            <div className="footer_writeup">
+              <h2 className="footer_h2 red_hat fw900">Experience more together</h2>
+              <p className="footer_p red_hat fw500">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
+              <button className="footer_download_btn red_hat fw900">Download <span>v1.3</span></button>
+            </div>
+          </div>
         </footer>
       </div>
     </>
